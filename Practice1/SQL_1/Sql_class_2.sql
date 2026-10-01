@@ -1,4 +1,5 @@
 use assign1;
+show databases;
 
 SELECT * FROM views;
 

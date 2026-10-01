@@ -236,3 +236,7 @@ CREATE TABLE result
     FOREIGN KEY (player_of_the_match_id) REFERENCES player(player_id)
 );
 
+
+SELECT m.match_id,m.match_date,v.venue_name
+from `match` m
+join venue v on  m.venue_id = v.venue_id;
