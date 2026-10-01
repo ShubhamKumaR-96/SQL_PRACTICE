@@ -27,6 +27,20 @@
             "name": "practice2",
             "database": "sqlbasics",
             "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "leetcode_sol",
+            "database": "leetcode_ques",
+            "username": "root"
         }
     ]
 }
